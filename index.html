@@ -16,10 +16,10 @@
         </div>
         <div class="generator-form-container">
             <form>
-                <label for="password-lenght-input">Largo de la contraseña</label>
                 <div class="range-input-container">
-                <input type="range" min="4" max="10" id="password-lenght-input">
-                <h1>0</h1>
+                    <label id="text-label" for="password-lenght-input">Largo de la contraseña</label>
+                    <h1 id="range-label" >0</h1>
+                    <input type="range" min="4" max="10" id="password-lenght-input">
                 </div>
                 
                 <div class="checkbox-container">
@@ -38,10 +38,9 @@
                     <input type="checkbox" id="symbol-input">
                     <label for="symbol-input">Incluir símbolos</label>
                 </div>
-                <button>Generar</button>
+                <button id="button" >GENERAR</button>
             </form>
         </div> 
-
     </main>
 </body>
 </html>
